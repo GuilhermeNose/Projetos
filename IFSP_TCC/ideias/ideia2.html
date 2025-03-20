@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protótipo 2</title>
+    <style>
+        :root{
+            --cor0: #137F27;
+            --cor1: #0D6F1F;
+            --cor2: #055E16;
+            --cor3: #195128;
+            --cor4: #00420C;
+            --cor5: #101010;
+            --cor6: #F9F9F9;
+        }
+
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body{
+            background-color: var(--cor5);
+        }
+
+        #corpo{
+            background-color: var(--cor4);
+            color: white;
+            height: 90vh;
+            min-width: 70vw;
+            max-width: 100vw;
+            padding: 10px;
+            border-radius: 15px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        header{
+            padding: 5px;
+        }
+
+        nav{
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        nav a{
+            background-color: var(--cor1);
+            padding: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: white;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        nav a:hover{
+            color: var(--cor0);
+            background-color: var(--cor3);
+            transition: 0.1s;
+            box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.4);
+        }
+
+        hr{
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="corpo">
+        <header>
+            <h1>Instituto Federal de Educação, Ciência e Tecnologia de São Paulo</h1>
+            <h2>Campus Catanduva</h2>
+            <nav>
+                <a href="#">Informações</a>
+                <a href="#">Dados do Aluno</a>
+                <a href="#">Armários</a>
+                <a href="#">Reserva do almoço</a>
+            </nav>
+        </header>
+        <hr>
+        <main>
+            <p>Nome: Guilherme Yoshio Nose</p>
+            <p>Prontuário: CT3021149</p>
+            <p>Curso: Mecatrônica</p>
+        </main>
+    </div>
+</body>
+</html>
